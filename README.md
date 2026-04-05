@@ -41,12 +41,15 @@
 
 ### 1. استنساخ المشروع
 
-ثم عدّل بيانات قاعدة البيانات داخل `.env` td في حال استخدمت قاعدة بيانات خاصة بك او سيرفر محلي غير الذي تم استخدامه:
+ثم عدّل بيانات قاعدة البيانات داخل `.env`في حال استخدمت قاعدة بيانات خاصة بك او سيرفر محلي غير الذي تم استخدامه:
 
 ```env
-DB_DATABASE=task
-DB_USERNAME=root
-DB_PASSWORD=
+ DB_CONNECTION=mysql
+ DB_HOST=127.0.0.1
+ DB_PORT=3306
+ DB_DATABASE=TASKS
+ DB_USERNAME=root
+ DB_PASSWORD=
 ```
 
 ---
